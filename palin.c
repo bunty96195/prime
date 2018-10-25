@@ -18,7 +18,7 @@ int main()
       for ( c = 2 ; c <= i - 1 ; c++ )
       {
          if ( i%c == 0 )
-           
+            break;
       }
       if ( c == i )
       {
